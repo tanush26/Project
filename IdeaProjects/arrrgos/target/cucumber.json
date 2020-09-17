@@ -1,0 +1,200 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9263084216,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 34215,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 143948932,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "SearchStepDef.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 245963474,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select \"women\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "women",
+                  "offset": 10
+                }
+              ],
+              "location": "SearchStepDef.iSelect(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5385128398,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select \"Clothing\" category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Clothing",
+                  "offset": 10
+                }
+              ],
+              "location": "ResultStepDef.iSelectCategory(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2514402533,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select \"Shirts and Tops\" categoryFilters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shirts and Tops",
+                  "offset": 10
+                }
+              ],
+              "location": "ResultStepDef.iSelectCategoryFilters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5075995877,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select filters \"Tu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tu",
+                  "offset": 18
+                }
+              ],
+              "location": "ResultStepDef.iSelectFilters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4783965520,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select filters \"£5 - £10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£5 - £10",
+                  "offset": 18
+                }
+              ],
+              "location": "ResultStepDef.iSelectFilters(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8323937855,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select randomProduct \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ",
+                  "offset": 24
+                }
+              ],
+              "location": "BasketStepDef.iSelectRandomProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 397808844,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select size \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 15
+                }
+              ],
+              "location": "BasketStepDef.iSelectSize(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2256681701,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I add refined product to basket",
+            "match": {
+              "location": "BasketStepDef.iAddRefinedProductToBasket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "As a customer\nI want to select a product\nSo that i can view filtered product",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "result.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@result"
+      }
+    ]
+  }
+]

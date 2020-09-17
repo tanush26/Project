@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.390952">
+<testcase classname="" name="" time="38.390952">
+<system-out><![CDATA[Given I am on Homepage......................................................passed
+When I select "women".......................................................passed
+And I select "Clothing" category............................................passed
+And I select "Shirts and Tops" categoryFilters..............................passed
+And I select filters "Tu"...................................................passed
+And I select filters "£5 - £10".............................................passed
+And I select randomProduct " "..............................................passed
+And I select size "8".......................................................passed
+Then I add refined product to basket........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
