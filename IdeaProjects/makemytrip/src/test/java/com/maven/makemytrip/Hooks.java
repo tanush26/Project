@@ -8,7 +8,7 @@ public class Hooks {
     DriverFactory driverFactory = new DriverFactory();
     @Before
     public void startUp(){
-        driverFactory.setDriver("firefox");
+        driverFactory.setDriver("chrome");
         driverFactory.setUrl("https://www.makemytrip.com/");
         driverFactory.maximise();
         driverFactory.implicitWait();
